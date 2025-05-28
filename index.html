@@ -5,11 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Autoloo - A Game by John Amarante</title>
   <style>
-    body {
+    html, body {
       margin: 0;
+      padding: 0;
+      height: 100%;
       font-family: 'Times New Roman', serif;
-      background: #f4f4f4;
-      color: #333;
+      background: #1e1e2f;
+      color: #fff;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
     }
     header {
       background-color: #1e1e2f;
@@ -22,6 +28,7 @@
       margin-bottom: 1rem;
     }
     main {
+      flex: 1;
       max-width: 900px;
       margin: 2rem auto;
       padding: 0 1rem;
